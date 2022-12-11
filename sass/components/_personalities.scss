@@ -1,0 +1,38 @@
+.personalities-list {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  &:last-child {
+    margin-right: 0px;
+  }
+}
+.personalities-list__text {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 1.7;
+  color: getColor("text-color");
+}
+.personalities-list__subtitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.personalities-list__container {
+  width: 270px;
+  height: 120px;
+  background-color: getColor("bgc-section");
+  margin-bottom: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.personalities-list__item {
+  width: 270px;
+  margin-right: 30px;
+  width: 270px;
+}

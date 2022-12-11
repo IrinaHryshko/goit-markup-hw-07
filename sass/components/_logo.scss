@@ -1,0 +1,18 @@
+.logo {
+  display: inline-block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-left: 0;
+  margin-right: 93px;
+
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  color: getColor("logo");
+  text-decoration: none;
+
+  &__base {
+    color: getColor("sub-accent");
+  }
+}

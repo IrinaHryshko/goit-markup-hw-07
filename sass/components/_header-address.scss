@@ -1,0 +1,40 @@
+.address {
+  display: flex;
+  margin-left: auto;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  list-style: none;
+  padding-left: 0px;
+}
+.address__list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-decoration: none;
+
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: getColor("text-color");
+
+  transition-property: color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    color: getColor("sub-accent");
+    fill: getColor("sub-accent");
+  }
+}
+.address__icon {
+  padding: 0;
+  margin-right: 10px;
+  fill: currentColor;
+}
+.address__contacts:not(:last-child) {
+  margin-right: 50px;
+}
