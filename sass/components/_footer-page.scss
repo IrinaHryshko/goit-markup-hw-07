@@ -21,17 +21,7 @@
     color: getColor("sub-accent");
   }
 }
-.footer-page__logo {
-  display: inline-block;
-  margin-bottom: 20px;
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  color: getColor("logo");
-  text-decoration: none;
-  color: getColor("accent-color");
-}
+
 .footer-page__base-container {
   display: flex;
   align-items: baseline;

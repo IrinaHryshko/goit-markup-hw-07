@@ -1,18 +1,16 @@
 .logo {
-  display: inline-block;
+  @include color(getColor("logo"));
+  @extend %logo-text;
   padding-top: 24px;
   padding-bottom: 25px;
   padding-left: 0;
   margin-right: 93px;
-
-  font-family: "Raleway", sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.19;
-  color: getColor("logo");
-  text-decoration: none;
-
-  &__base {
-    color: getColor("sub-accent");
-  }
+}
+.logo__base {
+  color: getColor("sub-accent");
+}
+.footer-page__logo {
+  @include color(getColor("accent-color"));
+  padding: 0;
+  margin-bottom: 0 0 20px 0;
 }

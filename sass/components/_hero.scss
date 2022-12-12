@@ -19,23 +19,13 @@
   padding-bottom: 200px;
 }
 .hero__btn {
+  @extend %button-style;
   font-family: inherit;
-  font-weight: 700;
   line-height: 1.8;
-  letter-spacing: 0.06em;
-  font-size: 16px;
   padding: 10px 32px;
   border-radius: 4px;
   min-width: 216px;
   text-align: center;
-  border: none;
-  cursor: pointer;
-  background-color: getColor("sub-accent");
-  color: getColor("accent-color");
-
-  transition-property: color, background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
   &:focus {
@@ -55,17 +45,4 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: getColor("accent-color");
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
