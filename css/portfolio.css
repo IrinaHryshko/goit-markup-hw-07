@@ -133,7 +133,7 @@ ul {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-site__link__link--active {
+.nav-site__link--active {
   color: #2196f3;
 }
 .nav-site__link:hover, .nav-site__link:focus {
