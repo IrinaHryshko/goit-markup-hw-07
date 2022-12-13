@@ -21,7 +21,7 @@
   }
 }
 
-.work_img {
+.work__img {
   display: block;
   width: 100%;
   height: auto;
@@ -30,15 +30,15 @@
 .work__item {
   margin-right: 30px;
   position: relative;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .work__list {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
-  &:last-child {
-    margin-right: 0px;
-  }
 }
 
 .work__heading {

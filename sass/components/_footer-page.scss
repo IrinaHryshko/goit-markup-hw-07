@@ -8,7 +8,8 @@
 .footer-page__link {
   display: inline-block;
   text-decoration: none;
-
+  padding: 0;
+  margin: 0;
   font-style: normal;
   line-height: 1.7;
   color: getColor("mail-style");
@@ -25,4 +26,8 @@
 .footer-page__base-container {
   display: flex;
   align-items: baseline;
+}
+.footer-page__address {
+  margin: 0;
+  padding: 0;
 }
